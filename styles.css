@@ -106,19 +106,19 @@ ul{
 
 @media (max-width: 300px){
     html{
-        font-size: 0.5vh;
+        font-size: 0.25vh;
     }
 }
 
 @media (min-widht: 300px) and  (max-width: 400px){
     html{
-        font-size: 0.75vh;
+        font-size: 0.5vh;
     }
 }
 
 @media (min-widht: 400px) and  (max-width: 500px){
     html{
-        font-size: 1vh;
+        font-size: 0.75vh;
     }
 }
 
