@@ -110,7 +110,13 @@ ul{
     }
 }
 
-@media (max-width: 500px){
+@media (min-widht: 300px) and  (max-width: 400px){
+    html{
+        font-size: 0.75vh;
+    }
+}
+
+@media (min-widht: 400px) and  (max-width: 500px){
     html{
         font-size: 1vh;
     }
@@ -128,8 +134,14 @@ ul{
     }
 }
 
-@media (min-width: 900px){
+@media (min-width: 900px) and (max-width: 1200px){
     html{
         font-size: 4vh;
+    }
+}
+
+@media (min-width: 1200px){
+    html{
+        font-size: 5vh;
     }
 }
