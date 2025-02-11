@@ -106,5 +106,5 @@ ul{
 
 
 html{
-        font-size: 2.5vw;
+        font-size: min(2vw, 32px);
 }
