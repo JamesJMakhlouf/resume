@@ -14,8 +14,11 @@ body{
     margin: 5px 20%;
 }
 
-.contact img{
+.contact svg{
+    display: inline-block;
     width: 0.7rem;
+    height: 0.5rem;
+    fill: #295F98;
 }
 
 .container{
@@ -98,6 +101,13 @@ h1, h2{
 
 ul{
     padding: 0px 16px;
+    list-style-position: inside;
+}
+
+@media (max-width: 300px){
+    html{
+        font-size: 0.5vh;
+    }
 }
 
 @media (max-width: 500px){
