@@ -109,11 +109,11 @@ html{
         font-size: min(2.5vw, 28px);
 }
 
-@media (max-width:500px){
+@media (max-device-width:550px) or (max-width: 550px){
     html{
         font-size: 4vw;
     }
-    
+
     .container{
         display: flex;
         flex-direction: column;
