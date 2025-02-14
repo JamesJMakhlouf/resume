@@ -36,10 +36,6 @@ p{
     text-align: justify;
 }
 
-a{
-    color:#003669
-}
-
 .container > div{
     background-color: #E1D7C6;
     padding: 8px;
@@ -65,7 +61,7 @@ h2, h3, h4, h5, h6{
     margin: 4px 4px;
 }
 
-h1, h2{
+h1, h2, a{
     color: #003669;
 }
 
@@ -119,4 +115,39 @@ html{
         flex-direction: column;
         gap: 10px;
     }    
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #151b22;
+        color: #c9c0a8;
+    }
+
+    .container > div {
+        background-color: #1E2839;
+    }
+
+    .container > div > div {
+        background-color: #323D5A;
+    }
+
+    .name > img {
+        border: 1px solid #323D5A;
+    }
+
+    h1, h2, a {
+        color: #EAE4DD;
+    }
+
+    p, .paragraph{
+        color: #c9c0a8;
+    }
+
+    .contact svg {
+        fill: #c9c0a8;
+    }
+
+    .date {
+        background-color: #4A5570;
+    }
 }
