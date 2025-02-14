@@ -106,5 +106,17 @@ ul{
 
 
 html{
-        font-size: min(2vw, 32px);
+        font-size: min(2.5vw, 28px);
+}
+
+@media (max-width:500px){
+    html{
+        font-size: 4vw;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }    
 }
